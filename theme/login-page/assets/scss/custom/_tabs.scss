@@ -1,0 +1,164 @@
+.tab-content> {
+	.tab-pane {
+		display: none;
+	}
+	.active {
+		display: block;
+	}
+}
+
+@media (max-width: 480px) {
+	.tab-content.card-body {
+		.btn {
+			min-width: 1.625rem;
+		}
+		.progress-bar {
+			display: none;
+		}
+	}
+}
+
+.tabs-menu ul li {
+	a {
+		padding: 10px 20px 11px 20px;
+	}
+	.active {
+		color: $white;
+		border-radius: 25px;
+	}
+}
+
+.tabs-menu1 ul li {
+	a {
+		padding: 10px 20px 11px 20px;
+		background: $background;
+		border-radius: 7px;
+		border: 0;
+		margin: 0 2px;
+		display: block;
+	}
+	.active {
+		border-radius: 7px;
+	}
+}
+
+.tabs-menu-body {
+	padding: 15px;
+	border: 1px solid $border;
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.tab-menu-heading {
+	padding: 20px;
+	border: 1px solid $border;
+	border-bottom: 0;
+}
+
+.tab_wrapper {
+	.content_wrapper .tab_content.active p:last-child {
+		margin-bottom: 0;
+	}
+	>ul {
+		li {
+			border: 1px solid $border;
+			border-top: 3px solid $border;
+		}
+		border-bottom: 1px solid $border;
+	}
+	&.right_side {
+		.content_wrapper {
+			border: 1px solid $border;
+		}
+		>ul {
+			li {
+				&.active {
+					border-color: $border;
+				}
+				&:after {
+					background: $border;
+				}
+			}
+				
+		}
+	}
+}
+
+#tab-11 .item-card2-img:hover a,
+#tab-12 .item-card2-img:hover a {
+	background: 0 0;
+}
+
+.tabs-menu ul.eductaional-tabs li{	
+	a {
+		padding: 10px 25px 10px 25px;
+		background: transparent;
+		border-radius: 3px;
+		margin: 0px;
+		display:block;
+		font-size: 16px;
+		&:hover {
+			color: $color;
+			background: transparent !important;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.tabs-menu ul.eductaional-tabs li {
+		a {
+			margin: 0;
+		}
+		width: 100% !important;
+	}
+	.tab-content .tab-pane .card-body a {
+		&.float-right {
+			float: none !important;
+		}
+	}
+}
+.tabs-menu-body #tab7 ,#commentForm #rootwizard  .tab-pane#first  {
+	.select2.select2-container.select2-container--default {
+		width: 100% !important;
+	}
+}
+#commentForm #rootwizard  .tab-pane#third .file-browser{
+	.form-control.browse-file {
+		background: transparent;
+	}
+	.input-group-btn {
+		.btn {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+	}
+}
+#commentForm #rootwizard  .tab-pane#fourth {
+	.tabs-menu1 ul {
+			border: 1px solid $border;
+			border-radius: 7px;
+		li {
+			width:25%;
+			.active {
+				border: 0px ;
+				color:$white;
+			}
+			 a {
+				background:transparent;
+				color:inherit;
+			}
+		}
+	}
+}
+.tab_wrapper {
+	&.first_tab{
+		ul {
+			li {
+				float: left;
+				margin: 0 0 0 5px;
+				border-top:1px solid $border;
+			}
+		}
+	}
+} 

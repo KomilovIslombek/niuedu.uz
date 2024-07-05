@@ -1,0 +1,166 @@
+.left-menu-wrapper {
+    /* margin-top: 100px; */
+    /* height: auto; */
+    height: max-content;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 25px 18px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #f2f2f2;
+    /* position: sticky; */
+    /* top: 95px; */
+}
+
+.left-menu-wrapper .menu-item {
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    line-height: 25px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.left-menu-wrapper .menu-item,
+.left-menu-wrapper .menu-item svg,
+.left-menu-wrapper .menu-item path,
+.left-menu-wrapper .menu-item circle
+{
+    transition: none !important;
+}
+
+.left-menu-wrapper .menu-item:hover,
+.left-menu-wrapper .menu-item.active {
+    background: #198A29;
+    color: #ffffff !important;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(15, 94, 247, 0.35);
+    box-shadow: 0px 0px 12px 0px rgba(15, 94, 247, 0.35);
+}
+
+.left-menu-wrapper .menu-item svg {
+    vertical-align: middle;
+    width: 20px;
+    margin: 0 10px;
+}
+
+.coursesContent {
+    display: inline-block;
+}
+
+/* Edit CV */
+.profile-information-section-wrapper-2 {
+    overflow: hidden;
+    width: 700px;
+    border: 1px solid #d8d8d8;
+    border-radius: 0 0 15px 15px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-information-section-2 {
+    width: 100%;
+    display: inline-block;
+    padding: 0 30px;
+    /* margin-left: 80px; */
+    /* margin: 25px 0 40px 10px; */
+}
+/* Edit CV end */
+
+/* Profile */
+.profile-information-section-wrapper {
+    width: 700px;
+    overflow: hidden;
+    padding: 0 15px;
+    margin: 25px 0 40px 0;
+    display: inline-block;
+}
+
+.profile-information-section {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    border-radius: 0 0 15px 15px;
+    background-color: #fff;
+}
+.cover-bg {
+    background-color: #198A29;
+}
+.cover-bg {
+    height: 50%;
+    position: relative;
+    border-radius: 20px;
+}
+.profile-image {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+}
+.profile-image img {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.full-name {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 65px;
+    font-weight: bold;
+}
+.profile-type {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .left-menu-wrapper {
+        width: 100%;
+    }
+
+    .profile-information-section-wrapper, 
+    .profile-information-section-wrapper-2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+#tables {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+}
+
+#tables td, #tables th {
+    border: 1px solid #ddd;
+    padding: 8px 8px 8px 12px;
+    font-size: 15px;
+}
+
+#tables tr:nth-child(even){background-color: #f2f2f2;}
+#tables tr:hover {background-color: #ddd;}
+
+#tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #25AE9C;
+    color: white;
+}
+
+.fieldlabels {
+    display: block;
+}
